@@ -9,7 +9,7 @@ This is done individually with the professor's permission.
 Your website can be as large or small as you would like but should include the at
 least the following criteria:
 
-- [ ] Menu of some sort to navigate the website
+- [x] Menu of some sort to navigate the website
 - [ ] 6+ pages (Home page + 5 other pages. About the hobby, about yourself, etc.)
 - [ ] 2+ controllers
 - [ ] A page about yourself
@@ -17,9 +17,9 @@ least the following criteria:
 - [ ] A page to display the database info
   - Possibly in an html table?
 - [ ] View folders per controllers
-- [ ] Shared folder with \_Layout.cshtml
-- [ ] \_Viewstart.cshtml
-- [ ] \_ViewImports.cshtml
+- [x] Shared folder with \_Layout.cshtml
+- [x] \_Viewstart.cshtml
+- [x] \_ViewImports.cshtml
 - [ ] Migrations folder to create the DB artifacts
-- [ ] wwwroot folder with jquery, bootstrap, css, etc.
+- [x] wwwroot folder with jquery, bootstrap, css, etc.
 - [ ] Connection string in appsettings.json and DBContext using I.o.C. (D.I.) into controllers after being registered in Program.cs
