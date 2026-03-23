@@ -1,7 +1,22 @@
+using Microsoft.EntityFrameworkCore;
+using WSA_Final_Project.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add DB Connection for dependency injection
+ConfigurationManager configuration = builder.Configuration;
+builder.Services.AddDbContext<WSAFinalContext>(options =>
+    options.UseSqlServer(configuration.GetConnectionString("WSAFinalContext")));
+
+// clean up URLs
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.AppendTrailingSlash = true;
+});
 
 var app = builder.Build();
 
