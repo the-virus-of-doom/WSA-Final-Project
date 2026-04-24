@@ -13,7 +13,7 @@ least the following criteria:
 - [ ] 6+ pages (Home page + 5 other pages. About the hobby, about yourself, etc.)
   - [x] Home (About 3D printing)
   - [x] About Me
-  - [ ] Printers
+  - [x] Printers
   - [ ] 3D Modeling
   - [ ] Functional Prints
   - [ ] Cosplay / Display Prints
