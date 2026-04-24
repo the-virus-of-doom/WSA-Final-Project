@@ -12,13 +12,13 @@ least the following criteria:
 - [x] Menu of some sort to navigate the website
 - [ ] 6+ pages (Home page + 5 other pages. About the hobby, about yourself, etc.)
   - [x] Home (About 3D printing)
-  - [ ] About Me
+  - [x] About Me
   - [ ] Printers
   - [ ] 3D Modeling
   - [ ] Functional Prints
   - [ ] Cosplay / Display Prints
 - [x] 2+ controllers
-- [ ] A page about yourself
+- [x] A page about yourself
 - [x] A database to hold information about your hobby. The database should simply contain a connection string to your local version of SQL Server. ((LocalDB)\.)
 - [ ] A page to display the database info (printers, filament, misc settings?)
   - Possibly in an html table?
