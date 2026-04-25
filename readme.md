@@ -15,7 +15,7 @@ least the following criteria:
   - [x] About Me
   - [x] Printers
   - [x] 3D Modeling
-  - [ ] Functional Prints
+  - [x] Functional Prints
   - [ ] Cosplay / Display Prints
 - [x] 2+ controllers
 - [x] A page about yourself
