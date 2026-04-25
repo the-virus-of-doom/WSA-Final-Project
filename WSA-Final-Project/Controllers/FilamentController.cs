@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using WSA_Final_Project.Models;
-
 
 namespace WSA_Final_Project.Controllers
 {
@@ -16,10 +14,11 @@ namespace WSA_Final_Project.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var filaments = context.Filaments.ToList();
+            return View(filaments);
         }
 
-        [HttpGet("filaments")]
+        [HttpGet("json")]
         public IActionResult GetAllFilaments()
         {
             var filaments = context.Filaments.ToList();

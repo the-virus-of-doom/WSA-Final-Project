@@ -20,9 +20,9 @@ least the following criteria:
 - [x] 2+ controllers
 - [x] A page about yourself
 - [x] A database to hold information about your hobby. The database should simply contain a connection string to your local version of SQL Server. ((LocalDB)\.)
-- [ ] A page to display the database info (printers, filament, misc settings?)
+- [x] A page to display the database info (printers, filament, misc settings?)
   - Possibly in an html table?
-- [ ] View folders per controllers
+- [x] View folders per controllers
 - [x] Shared folder with \_Layout.cshtml
 - [x] \_Viewstart.cshtml
 - [x] \_ViewImports.cshtml
