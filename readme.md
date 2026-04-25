@@ -10,13 +10,13 @@ Your website can be as large or small as you would like but should include the a
 least the following criteria:
 
 - [x] Menu of some sort to navigate the website
-- [ ] 6+ pages (Home page + 5 other pages. About the hobby, about yourself, etc.)
+- [x] 6+ pages (Home page + 5 other pages. About the hobby, about yourself, etc.)
   - [x] Home (About 3D printing)
   - [x] About Me
   - [x] Printers
   - [x] 3D Modeling
   - [x] Functional Prints
-  - [ ] Cosplay / Display Prints
+  - [x] Cosplay / Display Prints
 - [x] 2+ controllers
 - [x] A page about yourself
 - [x] A database to hold information about your hobby. The database should simply contain a connection string to your local version of SQL Server. ((LocalDB)\.)
