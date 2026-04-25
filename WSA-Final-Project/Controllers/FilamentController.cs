@@ -5,13 +5,18 @@ using WSA_Final_Project.Models;
 
 namespace WSA_Final_Project.Controllers
 {
-    public class _3DPrintController : Controller
+    public class FilamentController : Controller
     {
         private WSAFinalContext context { get; set; }
 
-        public _3DPrintController(WSAFinalContext context)
+        public FilamentController(WSAFinalContext context)
         {
             this.context = context;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
         }
 
         [HttpGet("filaments")]
