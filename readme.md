@@ -4,6 +4,27 @@ This is an ASP\.NET MVC Core website for my final project of the class (and actu
 
 This is done individually with the professor's permission.
 
+## How To Run
+
+> Note: This project requires .NET 8 and Entity Framework to run.
+
+Run the following commands in the `WSA-Final-Project` directory.
+
+1. Seed Database
+
+```bash
+dotnet ef database update
+```
+
+2. Run Server
+
+```bash
+dotnet run --launch-profile https
+```
+
+3. Visit web page
+   <https://localhost:7072/>
+
 ## Project Requirements
 
 Your website can be as large or small as you would like but should include the at
